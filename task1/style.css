@@ -1,0 +1,29 @@
+style.css
+ 
+   		.main-content {
+   			background: #fff;
+   			padding: 20px 30px;
+   			box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   			width: 1024px;
+   			margin: 0 auto;
+   		}
+   		.main-content h1 {
+ 		   	text-align: center;
+    		margin: 0 0 20px;  
+    		border-bottom-width: 2px; 		}
+   		.main-content .block-img {
+   			text-align: center;
+   		}
+	 
+   		.prof {
+   			padding:10px 0 20px 10px;
+			border-bottom: 3px solid grey;
+   		}
+   		.aims {
+   			padding: 20px 0 20px 30px;
+   			border-bottom: 2px solid grey;
+   		}
+   		.contacts {
+   			border-bottom: 1px solid grey;
+   		}
+   		
