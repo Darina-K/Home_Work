@@ -2,6 +2,8 @@ html {
 	height: 100%;
 }
 body {
+	font-family: Tahoma;
+	font-size: 12px;
 	background: #ccc;
     margin: 0;
     height: 100%;
@@ -10,18 +12,16 @@ body {
 	background: rgb(255,255,255);
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	width: 1000px;
-	height: 100%;
 	padding: 30px 40px;
 	margin: 0 auto;
-}
-header h1 {
-
 }
 .title{
 	margin: 0 0 30px;
 	font-family: Tahoma;
 }	
-
+main {
+	margin: 20px 0 0;
+}
 .main_menu {
     background-color: dimgrey;
     color: white;
@@ -45,30 +45,42 @@ header h1 {
     display: inline-block;
 }
 .sidebar {
-	width: 200px;
-	padding: 20px;
-	margin-left: 20px;
-	background-color: ghostwhite;
-	line-height: 30px;
+	width: 250px;
 	float: left;
-	border-top: 1px solid grey;
-	border-right: 1px solid grey;
-	border-left: 1px solid grey;
+
+}
+ul.sidebar-menu  {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid dimgrey;
+	border-bottom: none;
+}
+ul.sidebar-menu > li{
 	border-bottom: 1px solid grey;
 }
-.sidebar a {
+ul.sidebar-menu > li a {
+	display: block;
+	padding: 10px 15px;
 	text-decoration: none;
 	color: black;
-	font-family: Tahoma;
 }
-.sidebar li{
-	list-style: none;
-	border-bottom: 1px solid grey;
+
+.content {
+	width: 700px;
+    float: left;
+    margin: 0 0 0 50px;
 }
 .content img {
-	margin: 20px 50px;
-	border: 1px solid dimgrey;
-	width: 600px
+    border: 1px solid #696969;
+    width: 100%;
+}
+.content p{
+	margin: 20px 15px 0;
+}
+.table_cont {
+	clear: both;
+	margin: 30px 0 0 0;
 }
 .table_cont > table  th {
 	background: #ccc;
