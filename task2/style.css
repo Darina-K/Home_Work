@@ -1,0 +1,83 @@
+html {
+	height: 100%;
+}
+body {
+	background: #ccc;
+    margin: 0;
+    height: 100%;
+}
+.site_wrap {
+	background: rgb(255,255,255);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	width: 1000px;
+	height: 100%;
+	padding: 30px 40px;
+	margin: 0 auto;
+}
+header h1 {
+
+}
+.title{
+	margin: 0 0 30px;
+	font-family: Tahoma;
+}	
+
+.main_menu {
+    background-color: dimgrey;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.main_menu li{
+	display: inline-block;
+}
+.main_menu li:hover{
+	background: black;
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.main_menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: Tahoma;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.sidebar {
+	width: 200px;
+	padding: 20px;
+	margin-left: 20px;
+	background-color: ghostwhite;
+	line-height: 30px;
+	float: left;
+	border-top: 1px solid grey;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+.sidebar a {
+	text-decoration: none;
+	color: black;
+	font-family: Tahoma;
+}
+.sidebar li{
+	list-style: none;
+	border-bottom: 1px solid grey;
+}
+.content img {
+	margin: 20px 50px;
+	border: 1px solid dimgrey;
+	width: 600px
+}
+.table_cont > table  th {
+	background: #ccc;
+}
+.table_cont > table  th a {
+	color: black;
+	font-weight: normal;
+	text-decoration: none;
+}
+.table_cont > table  th a:hover{
+	text-decoration: underline;
+}
