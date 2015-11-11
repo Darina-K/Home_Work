@@ -47,23 +47,30 @@ main {
 .sidebar {
 	width: 250px;
 	float: left;
+	-webkit-box-shadow: 9px -7px 7px -8px rgba(138,145,148,0.37);
+	-moz-box-shadow: 9px -7px 7px -8px rgba(138,145,148,0.37);
+box-shadow: 9px -7px 7px -8px rgba(138,145,148,0.37);
 
 }
-ul.sidebar-menu  {
+ul.sidebar-menu {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	border: 1px solid dimgrey;
+	border: 1px solid  #C0C0C0;
 	border-bottom: none;
 }
-ul.sidebar-menu > li{
-	border-bottom: 1px solid grey;
+ul.sidebar-menu > li {
+	border-bottom: 1px solid  #C0C0C0;
 }
 ul.sidebar-menu > li a {
 	display: block;
 	padding: 10px 15px;
 	text-decoration: none;
-	color: black;
+	color: black;	
+}
+
+ul.sidebar-menu > li a:hover {
+	background: #DCDCDC;
 }
 
 .content {
@@ -74,6 +81,7 @@ ul.sidebar-menu > li a {
 .content img {
     border: 1px solid #696969;
     width: 100%;
+	box-shadow: inset 9px 0px 7px 0px rgba(0,0,0, 1);
 }
 .content p{
 	margin: 20px 15px 0;
